@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', Roboto, sans-serif;
+  background: #000000;
+}
+
+a,
+button,
+input {
+  font-family: inherit;
+}
