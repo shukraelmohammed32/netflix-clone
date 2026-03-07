@@ -124,6 +124,21 @@
   opacity: 1;
 }
 
+.sign-in-link {
+  background: var(--cta);
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-size: 0.9rem;
+  transition: background 0.2s ease;
+}
+
+.sign-in-link:hover {
+  background: var(--cta-hover);
+}
+
 .kids-link,
 .dvd-link {
   background: none;
