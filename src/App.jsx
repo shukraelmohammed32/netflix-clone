@@ -47,6 +47,7 @@ const featureImages = {
   tablet: 'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=900&q=80',
   phoneMini: 'https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=700&q=80',
   kids: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=1000&q=80',
+  profile: 'https://images.unsplash.com/photo-1599569784915-4b1b6b5b3b5b?auto=format&fit=crop&w=64&h=64&q=80',
 };
 
 function EmailForm({ inputId }) {
@@ -109,14 +110,14 @@ function App() {
               
               <div className="user-dropdown">
                 <button className="user-avatar-btn" aria-label="User menu">
-                  <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=32&h=32&q=80" alt="User" className="user-avatar" />
+                  <img src={featureImages.profile} alt="User" className="user-avatar" />
                   <span className="dropdown-arrow">▼</span>
                 </button>
                 <div className="dropdown-menu">
                   <div className="dropdown-header">
-                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=32&h=32&q=80" alt="User" className="dropdown-avatar" />
+                    <img src={featureImages.profile} alt="User" className="dropdown-avatar" />
                     <div className="user-info">
-                      <span className="user-email">user@netflix.com</span>
+                      <span className="user-email">john.doe@netflix.com</span>
                       <button className="manage-profiles">Manage Profiles</button>
                     </div>
                   </div>
